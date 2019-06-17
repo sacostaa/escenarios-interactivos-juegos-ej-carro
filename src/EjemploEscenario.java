@@ -21,9 +21,9 @@ public  class EjemploEscenario extends Application{
     @Override
     public void start(Stage stage) throws Exception {
         Pane panel = new Pane();
-        Canvas tablero = new Canvas (300,300);
+        Canvas tablero = new Canvas (1024,512);
         panel.getChildren().add(tablero);
-        Scene escena = new Scene (panel,300,300,Color.WHITESMOKE);
+        Scene escena = new Scene (panel,1024,512,Color.WHITESMOKE);
         GraphicsContext lapiz = tablero.getGraphicsContext2D();
         Animacion animacion = new Animacion(lapiz);
         animacion.start();
