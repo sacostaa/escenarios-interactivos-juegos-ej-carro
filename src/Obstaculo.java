@@ -18,10 +18,7 @@ public class Obstaculo extends Objeto{
     }
     
 
-    @Override
-    public void mover() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
 
     public boolean isActivo() {
         return activo;
@@ -29,6 +26,26 @@ public class Obstaculo extends Objeto{
 
     public void setActivo(boolean activo) {
         this.activo = activo;
+    }
+
+    @Override
+    public void moverd() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void moveri() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void movera() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void moverb() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     

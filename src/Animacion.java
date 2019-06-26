@@ -78,7 +78,7 @@ public class Animacion extends AnimationTimer{
        
        
 
-       this.carro.mover();
+       
             
         
     }

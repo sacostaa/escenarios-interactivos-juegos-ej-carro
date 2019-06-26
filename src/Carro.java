@@ -21,14 +21,25 @@ public class Carro extends Objeto{
     
     
 
+   
+
     @Override
-    public void mover() {
-        
-        this.x = x +1;
-        this.y = y;
-    
-    
-    
-    
-}
+    public void moverd() {
+        this.x = x + 1;
+    }
+
+    @Override
+    public void moveri() {
+        this.x = x - 1;
+    }
+
+    @Override
+    public void movera() {
+        this.y = y + 1;
+    }
+
+    @Override
+    public void moverb() {
+        this.y = y - 1;
+    }
 }

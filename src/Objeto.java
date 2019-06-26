@@ -28,7 +28,10 @@ public abstract class Objeto {
         return y;
     }
 
-   public abstract void mover ();
+   public abstract void moverd ();
+   public abstract void moveri ();
+   public abstract void movera ();
+   public abstract void moverb ();
 
     public void setX(int x) {
         this.x = x;
